@@ -42,11 +42,11 @@ models:
         - report
       +schema: marts
 
-vars:
-  token_name_var: 'link'
-  token_address_var: '0x514910771af9ca656af840dff83e8264ecf986ca'
-  token_decimals_var: '18'
 
+vars:
+  token_name_var: 'tron'
+  token_address_var: '0x50327c6c5a14DCaDE707ABad2E27eB517df87AB5'
+  token_decimals_var: '6'
 
 dispatch:
   - macro_namespace: dbt_utils
