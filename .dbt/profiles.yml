@@ -11,4 +11,3 @@ eth:
       user: "{{ env_var('DBT_SNOWFLAKE_USER')}}"
       warehouse: compute_wh
   target: ci
-  
