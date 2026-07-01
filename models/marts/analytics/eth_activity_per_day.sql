@@ -1,6 +1,7 @@
 {{ config(materialized ='table', tags =['daily'])}}
 
 select
+
 date,
 transaction_category,
 count(*) as tx_count,
